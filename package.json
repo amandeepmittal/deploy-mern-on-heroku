@@ -1,0 +1,21 @@
+{
+	"name": "deploy-mern-on-heroku",
+	"version": "0.0.1",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Aman Mittal <amandeepmittal@live.com> (www.amanhimself.me)",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.16.3",
+		"mongoose": "^5.3.2"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.4"
+	}
+}
